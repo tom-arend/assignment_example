@@ -4,7 +4,7 @@ author: "Tom Arend"
 date: "2022-09-20"
 output: html_document
 ---
-
+blabala 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
@@ -18,9 +18,13 @@ When you click the **Knit** button a document will be generated that includes bo
 ### 
 
 ```{r cars}
-x <- seq(from = 1, to = 10, by = 2)
+x <- seq(from = 1, to = 10, by = 1)
 ```
 
 ###
 
 Change
+
+```{r}
+y <- mean(10, 20, 100)
+```
